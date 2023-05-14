@@ -28,7 +28,8 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:text="0"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="@color/purple_200"/>
 
         <Button
             android:id="@+id/button_plus"

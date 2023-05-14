@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             binding.textViewNumber.text = count.toString()
         }
         mainViewModel.changeColor.observe(this) { bool ->
-            val colorRes = if (bool) R.color.teal_200 else R.color.white
+            val colorRes = if (bool) R.color.teal_200 else R.color.purple_200
             binding.textViewNumber.setTextColor(ContextCompat.getColor(this, colorRes))
         }
     }
